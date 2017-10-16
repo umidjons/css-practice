@@ -1,0 +1,75 @@
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 40px;
+}
+
+fieldset {
+    padding: 40px;
+    border: 1px solid #aaa;
+    background: #b5dcff;
+    box-shadow: #ccc 14px 14px 14px;
+    margin-bottom: 40px;
+}
+
+fieldset legend {
+    padding: 10px;
+    border: 1px solid #aaa;
+    background: #fff;
+}
+
+label {
+    font-size: 12px;
+    background: #cb1d3f;
+    text-transform: uppercase;
+    display: block;
+    width: 76%;
+    padding: 0.7% 1.82%;
+    color: white;
+    border: 1px solid #454545;
+    border-bottom: none;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+textarea {
+    padding: 10px;
+    margin: 0 auto 20px;
+    border: 1px solid #454545;
+    border-top: none;
+    display: block;
+    width: 80%;
+    font-size: 14px;
+    color: #777;
+    font-family: Monaco, monospace;
+    text-transform: uppercase;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type=submit] {
+    color: white;
+    background: #ff7206;
+    font-size: 14px;
+    border: 2px solid #777;
+    padding: 15px 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    border-color: #444;
+}
+
+input[type=submit]:active {
+    border-color: #111;
+    outline-color: #ffb125;
+}
