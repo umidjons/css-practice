@@ -52,3 +52,11 @@ article[role=complementary] {
   float: right;
   width: 300px / 960px * 100%;
 }
+
+.funky {
+  font: {
+    family: fantasy; /* font-family */
+    size: 3em; /* font-size */
+    weight: bold; /* font-weight */
+  }
+}
