@@ -1,7 +1,41 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
+$nav-bg-color: #999;
+$nav-color: #fff;
+$nav-color-light: lime;
+$nav-bg-color-light: #000;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+  background: $nav-bg-color;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: $nav-color;
+
+    &:hover {
+      color: $nav-color-light;
+      background: $nav-bg-color-light;
+    }
+  }
 }
