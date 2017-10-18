@@ -1,0 +1,33 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid red;
+  height: 300px;
+
+  /* activating flex */
+  display: flex; /* flex | flex-inline */
+
+  flex-direction: row; /* row | column | row-reverse | column-reverse, default row */
+  flex-wrap: wrap; /* nowrap | wrap | wrap-reverse, default nowrap */
+
+  /* or specify direction and wrapping with this single property */
+  flex-flow: row wrap; /* flex-flow: <flex-direction> <flex-wrap>; */
+
+  /* justifying items horizontally */
+  justify-content: space-between; /* flex-start | flex-end | center | space-between | space-around */
+
+  /* align items vertically */
+  align-items: stretch; /* flex-start | flex-end | center | stretch | baseline */
+  
+  /* align content */
+  align-content: flex-end; /* flex-start | flex-end | center | stretch */
+}
+
+li {
+  width: 200px;
+  /* height: 200px; */
+  background: #8cacea;
+  margin: 10px;
+  padding: 5px;
+}
