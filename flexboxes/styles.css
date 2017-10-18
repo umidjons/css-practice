@@ -30,4 +30,6 @@ li {
   background: #8cacea;
   margin: 10px;
   padding: 5px;
+  order: 2;
 }
+

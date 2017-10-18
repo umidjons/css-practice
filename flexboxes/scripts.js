@@ -21,4 +21,8 @@ btnApply.addEventListener('click', (event)=>{
   flexContainer.style.justifyContent = justify;
   flexContainer.style.alignItems = alignItems;
   flexContainer.style.alignContent = alignContent;
+
+  const fourthItem = document.getElementById('fourth-item');
+  const fourthItemOrder = 1 * document.getElementById('fourth-item-order').value;
+  fourthItem.style.order = fourthItemOrder;
 });
