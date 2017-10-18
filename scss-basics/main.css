@@ -52,8 +52,5 @@ article[role=complementary] {
 
 .funky {
   font-family: fantasy;
-  /* font-family */
   font-size: 3em;
-  /* font-size */
-  font-weight: bold;
-  /* font-weight */ }
+  font-weight: bold; }
