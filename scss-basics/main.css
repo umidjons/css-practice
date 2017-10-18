@@ -38,3 +38,14 @@ nav {
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
       border-radius: 7px; }
+
+.container {
+  width: 100%; }
+
+article[role=main] {
+  float: left;
+  width: 62.5%; }
+
+article[role=complementary] {
+  float: right;
+  width: 31.25%; }
