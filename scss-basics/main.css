@@ -19,4 +19,8 @@ nav {
     color: #fff; }
     nav a:hover {
       color: lime;
-      background: #000; }
+      background: #000;
+      -webkit-border-radius: 7px;
+      -moz-border-radius: 7px;
+      -ms-border-radius: 7px;
+      border-radius: 7px; }
