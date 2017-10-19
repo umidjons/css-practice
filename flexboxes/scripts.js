@@ -25,4 +25,12 @@ btnApply.addEventListener('click', (event)=>{
   const fourthItem = document.getElementById('fourth-item');
   const fourthItemOrder = 1 * document.getElementById('fourth-item-order').value;
   fourthItem.style.order = fourthItemOrder;
+
+  const firstItem = document.getElementById('first-item');
+  const firstItemGrow = document.getElementById('first-item-grow').value;
+  firstItem.style.flexGrow = 1 * firstItemGrow;
+
+  const secondItem = document.getElementById('second-item');
+  const secondItemBasis = document.getElementById('second-item-basis').value;
+  secondItem.style.flexBasis = secondItemBasis;
 });

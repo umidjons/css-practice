@@ -31,5 +31,9 @@ li {
   margin: 10px;
   padding: 5px;
   order: 2;
+  flex-grow: 1;
 }
 
+li:nth-child(2) {
+  flex-basis: 50px; /* width of the 2nd item */
+}
